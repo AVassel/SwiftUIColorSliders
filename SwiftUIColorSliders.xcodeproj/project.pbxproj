@@ -11,6 +11,10 @@
 		3E990340295C652000A94A3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99033F295C652000A94A3C /* ContentView.swift */; };
 		3E990342295C652200A94A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E990341295C652200A94A3C /* Assets.xcassets */; };
 		3E990345295C652200A94A3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E990344295C652200A94A3C /* Preview Assets.xcassets */; };
+		3EBD48A6295C658A00D29D3A /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD48A5295C658A00D29D3A /* ColorView.swift */; };
+		3EBD48A8295C66ED00D29D3A /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD48A7295C66ED00D29D3A /* ColorSliderView.swift */; };
+		3EBD48AA295C8B6B00D29D3A /* ColorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD48A9295C8B6B00D29D3A /* ColorTextView.swift */; };
+		3EBD48AC295C8DBB00D29D3A /* ColorTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD48AB295C8DBB00D29D3A /* ColorTextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3E99033F295C652000A94A3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E990341295C652200A94A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E990344295C652200A94A3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EBD48A5295C658A00D29D3A /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		3EBD48A7295C66ED00D29D3A /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
+		3EBD48A9295C8B6B00D29D3A /* ColorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTextView.swift; sourceTree = "<group>"; };
+		3EBD48AB295C8DBB00D29D3A /* ColorTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				3E99033F295C652000A94A3C /* ContentView.swift */,
 				3E990341295C652200A94A3C /* Assets.xcassets */,
 				3E990343295C652200A94A3C /* Preview Content */,
+				3EBD48A5295C658A00D29D3A /* ColorView.swift */,
+				3EBD48AB295C8DBB00D29D3A /* ColorTextFieldView.swift */,
+				3EBD48A9295C8B6B00D29D3A /* ColorTextView.swift */,
+				3EBD48A7295C66ED00D29D3A /* ColorSliderView.swift */,
 			);
 			path = SwiftUIColorSliders;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBD48AC295C8DBB00D29D3A /* ColorTextFieldView.swift in Sources */,
+				3EBD48A6295C658A00D29D3A /* ColorView.swift in Sources */,
 				3E990340295C652000A94A3C /* ContentView.swift in Sources */,
+				3EBD48A8295C66ED00D29D3A /* ColorSliderView.swift in Sources */,
 				3E99033E295C652000A94A3C /* SwiftUIColorSlidersApp.swift in Sources */,
+				3EBD48AA295C8B6B00D29D3A /* ColorTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
